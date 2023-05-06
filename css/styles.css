@@ -1,0 +1,37 @@
+:root {
+    --cartaRadius: 20px;
+}
+
+body {
+    background-color: #d6e2f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.carta {
+    background-color: white;
+    width: 250px;
+    height: fit-content;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--cartaRadius);
+}
+.carta img {
+    width: 100%;
+    border-radius: calc(var(--cartaRadius) / 2);
+}
+.carta p {
+    text-align: center;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    color: #7b879d;
+    font-size: 15px;
+    margin: 0 0 20px;
+}
+.carta .titulo {
+    font-weight: 700;
+    color: #1f3251;
+    font-size: 20px;
+    margin: 20px 0;
+}
